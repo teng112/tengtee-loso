@@ -25,11 +25,11 @@ registerMonsters("a", [                 // ส่งมอนสเตอร์�
   // -------------------------------------------------------------------
   {
     id: "a1",                           // รหัสประจำตัว ลงท้ายด้วย 1 = ลงสนามเป็นลำดับที่ 1 (ห้ามแก้)
-    name: "เซฟคุง",                     // ชื่อที่แสดงในสนาม
+    name: "cop",                     // ชื่อที่แสดงในสนาม
     description: "ชอบนอนอ้วน แต่ตัวร้อนเหมือนไฟ", // คำอธิบายนิสัยหรือเรื่องราวสั้น ๆ
-    image: "images/monster-1.svg",      // รูปในโฟลเดอร์ student-a/images/ (.png .jpg .svg .webp)
+    image: "images/sek.jpg",      // รูปในโฟลเดอร์ student-a/images/ (.png .jpg .svg .webp)
     element: "fire",                    // ธาตุ: wind ลม | rock หิน | plant พืช | fire ไฟ | water น้ำ | ice น้ำแข็ง | lightning สายฟ้า
-    skill: "poison",                    // สกิลทุก 3 เทิร์นของตัวเอง: strike โจมตีหนัก | critStrike โจมตีจุดตาย | poison พิษ | heal ฟื้นพลัง | shield สร้างโล่
+    skill: "strike",                    // สกิลทุก 3 เทิร์นของตัวเอง: strike โจมตีหนัก | critStrike โจมตีจุดตาย | poison พิษ | heal ฟื้นพลัง | shield สร้างโล่
     trait: "thorns",                    // ติดตัว: none ไม่มี (HP+ดาเมจ +5%) | thorns หนามสะท้อน | regeneration ฟื้นตัว | berserk ฮึดสู้ | hardCrit คริรุนแรง
     stats: {                            // แต้มสเตตัส รวมทั้ง 8 ค่าได้ไม่เกิน 100
       hp: 40,                           // พลังชีวิต (สูงสุด 50)
@@ -48,11 +48,11 @@ registerMonsters("a", [                 // ส่งมอนสเตอร์�
   // -------------------------------------------------------------------
   {
     id: "a2",                           // รหัสประจำตัว ลงท้ายด้วย 2 = ลงสนามเป็นลำดับที่ 2 (ห้ามแก้)
-    name: "ปั๊มคุง",                      // ชื่อที่แสดงในสนาม
+    name: "boss",                      // ชื่อที่แสดงในสนาม
     description: "ชอบปลาส้ม แต่รักธรรมชาติ", // คำอธิบายนิสัยหรือเรื่องราวสั้น ๆ
     image: "images/monster-2.svg",      // รูปในโฟลเดอร์ student-a/images/ (.png .jpg .svg .webp)
-    element: "plant",                   // ธาตุ: wind ลม | rock หิน | plant พืช | fire ไฟ | water น้ำ | ice น้ำแข็ง | lightning สายฟ้า
-    skill: "heal",                      // สกิลทุก 3 เทิร์นของตัวเอง: strike โจมตีหนัก | critStrike โจมตีจุดตาย | poison พิษ | heal ฟื้นพลัง | shield สร้างโล่
+    element: "lightning",                   // ธาตุ: wind ลม | rock หิน | plant พืช | fire ไฟ | water น้ำ | ice น้ำแข็ง | lightning สายฟ้า
+    skill: "critStrike",                      // สกิลทุก 3 เทิร์นของตัวเอง: strike โจมตีหนัก | critStrike โจมตีจุดตาย | poison พิษ | heal ฟื้นพลัง | shield สร้างโล่
     trait: "regeneration",              // ติดตัว: none ไม่มี (HP+ดาเมจ +5%) | thorns หนามสะท้อน | regeneration ฟื้นตัว | berserk ฮึดสู้ | hardCrit คริรุนแรง
     stats: {                            // แต้มสเตตัส รวมทั้ง 8 ค่าได้ไม่เกิน 100
       hp: 30,                           // พลังชีวิต (สูงสุด 50)
@@ -71,11 +71,11 @@ registerMonsters("a", [                 // ส่งมอนสเตอร์�
   // -------------------------------------------------------------------
   {                                     
     id: "a3",                           // รหัสประจำตัว ลงท้ายด้วย 3 = ลงสนามเป็นลำดับที่ 3 (ห้ามแก้)
-    name: "โอมคุง",                     // ชื่อที่แสดงในสนาม
+    name: "gira",                     // ชื่อที่แสดงในสนาม
     description: "โอมไหนไม่รู้ แต่โอม",    // คำอธิบายนิสัยหรือเรื่องราวสั้น ๆ
     image: "images/monster-3.svg",      // รูปในโฟลเดอร์ student-a/images/ (.png .jpg .svg .webp)
-    element: "wind",                    // ธาตุ: wind ลม | rock หิน | plant พืช | fire ไฟ | water น้ำ | ice น้ำแข็ง | lightning สายฟ้า
-    skill: "strike",                    // สกิลทุก 3 เทิร์นของตัวเอง: strike โจมตีหนัก | critStrike โจมตีจุดตาย | poison พิษ | heal ฟื้นพลัง | shield สร้างโล่
+    element: "plant",                    // ธาตุ: wind ลม | rock หิน | plant พืช | fire ไฟ | water น้ำ | ice น้ำแข็ง | lightning สายฟ้า
+    skill: "heal",                    // สกิลทุก 3 เทิร์นของตัวเอง: strike โจมตีหนัก | critStrike โจมตีจุดตาย | poison พิษ | heal ฟื้นพลัง | shield สร้างโล่
     trait: "none",                      // ติดตัว: none ไม่มี (HP+ดาเมจ +5%) | thorns หนามสะท้อน | regeneration ฟื้นตัว | berserk ฮึดสู้ | hardCrit คริรุนแรง
     stats: {                            // แต้มสเตตัส รวมทั้ง 8 ค่าได้ไม่เกิน 100
       hp: 15,                           // พลังชีวิต (สูงสุด 50)
